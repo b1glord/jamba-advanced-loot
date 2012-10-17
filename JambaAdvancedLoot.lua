@@ -1,10 +1,13 @@
 --[[
-Jamba - Jafula's Awesome Multi-Boxer Assistant
-Copyright 2008 - 2011 Michael "Jafula" Miller
-All Rights Reserved
-http://wow.jafula.com/addons/jamba/
-jamba at jafula dot com
+Jamba Advanced Loot
+*******************
+Author: Max Schilling
+Create Date: 10/16/2012
+Version: 0.9
+Description: Jamba extension that allows choosing which group member is able to loot a certain item. Specifically intended for Motes of Harmony.
+Credits: Built on top of the awesome JAMBA addon, most code is copied nearly directly from various Jamba addons. Only the logic for looting is original.
 ]]--
+
 
 -- Create the addon using AceAddon-3.0 and embed some libraries.
 local AJM = LibStub( "AceAddon-3.0" ):NewAddon( 

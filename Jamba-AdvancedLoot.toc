@@ -1,16 +1,13 @@
 ## Interface: 50001 
 ## Title: Jamba-AdvancedLoot
 ## Notes: Jamba-AdvancedLoot
-## Author: Jafula
-## Version: 1.0 beta 3
+## Author: Max Schilling
+## Version: 0.9
 ## X-Category: Interface Enhancements
 ## X-Child-Of: Jamba
 ## Dependencies: Jamba
 ## SavedVariables: JambaAdvancedLootProfileDB
-## X-Curse-Packaged-Version: beta-1.0beta3
-## X-Curse-Project-Name: Jamba
-## X-Curse-Project-ID: jamba
-## X-Curse-Repository-ID: wow/jamba/mainline
+
 Locales\Locales.xml
 JambaAdvancedLoot.lua
 
