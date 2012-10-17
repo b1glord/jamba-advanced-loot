@@ -1,0 +1,40 @@
+--[[
+Jamba - Jafula's Awesome Multi-Boxer Assistant
+Copyright 2008 - 2011 Michael "Jafula" Miller
+All Rights Reserved
+http://wow.jafula.com/addons/jamba/
+jamba at jafula dot com
+]]--
+
+local L = LibStub("AceLocale-3.0"):NewLocale( "Jamba-AdvancedLoot", "enUS", true )
+L["Slash Commands"] = true
+L["Merchant"] = true
+L["Team"] = true
+L["Advanced Loot"] = true
+L["Enable Advanced Loot"] = true
+L["Auto Close Loot Window On Slaves"] = true
+L["Manage Auto Loot"] = true
+L["Push Settings"] = true
+L["Push the advanced loot settings to all characters in the team."] = true
+L["Settings received from A."] = function( characterName )
+	return string.format( "Settings received from %s.", characterName )
+end
+
+L["GOTTA LOOT A FROM B."] = function( itemLink, characterName )
+	return string.format( "JAMBA ADVANCED LOOT: %s FOUND. LOOT THIS FROM %s.", itemLink, characterName )
+end
+
+L["Advanced Loot Items"] = true
+L["Character Name"] = true
+L["Remove"] = true
+L["Add Item"] = true
+L["Item (drag item to box from your bags)"] = true
+L["Add"] = true
+L["Advanced Loot Messages"] = true
+L["Message Area"] = true
+L["Are you sure you wish to remove the selected item from the advanced loot items list?"] = true
+
+L["Character name must only be made up of letters and numbers."] = true
+
+L["PopOut"] = true
+L["Show the advanced loot settings in their own window."] = true
