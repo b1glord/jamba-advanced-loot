@@ -323,13 +323,7 @@ function AJM:SettingsSetMessageArea( event, value )
 end
 
 function AJM:SettingsSetCharacterName( event, value )
-
-if not value or value:trim() == "" or value:find( "%W" ) ~= nil then
-		AJM:Print( L["Character name must only be made up of letters and numbers."] )
-		return
-	end
 	AJM.advancedLootItemCharacterName = value
-
 	AJM:SettingsRefresh()
 end
 
